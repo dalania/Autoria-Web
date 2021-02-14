@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+  padding: 0;
+  margin:0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #000000;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+  height: 60px;
+  background-color: #FFFFFF;
+}
+.menu{
+  padding: 20px;
+}
+header .menu a{
+  font-weight: 400;
+  padding-top: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 23px;
+}
+
+header .menu a:hover{
+  color: #C4C4C4;
+}
+.content{
+ text-align: center;
+ margin-top: 60px;
+ color:#FFF;
+}
+
+.content img{
+  border: 1px solid #FFF0F5;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.content h2{
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 52px;
+margin-top: 20px;
+}
+
+.content p{
+  font-size: 18px;
+  font-weight: 300;
+}
+.cards{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.card{
+  margin-top: 60px;
+  margin-left: 20px;
+
+ 
+  background-color: #fff;
+  width: 180px;
+  border-radius: 6px;
+ 
+}
+
+.card_image{
+  text-align: center;
+}
+.title{
+  padding-top: 20px;
+  text-align: center;
+}
+span{
+  font-size: 33px;
+  font-weight: 700;
+  color:#FFF;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* MUSIC*/
+.music{
+  padding-top: 40px;
+  display: flex;
+}
+.lyrics{
+  width: 300px;
+  color:#FFF;
+}
+
+.lyrics p{
+  padding: 20px;
+}
+
+.imageMusic img{
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.iframeVideo{
+  margin-left: 10%;
+  margin-top: 5%;
+}
